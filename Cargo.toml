@@ -3,8 +3,9 @@ name = "ghw-sys"
 version = "0.1.0"
 authors = ["Oscar Gustafsson <oscar.gustafsson@gmail.com>"]
 edition = "2018"
+license = "EUPL-1.2"
 description = "Bindings for GHDL GHW file manipulation API."
-include = ["src/*", "build.rs", "Cargo.toml", "libghw/*.c", "libghw/*.h"]
+include = ["src/*", "build.rs", "Cargo.toml", "libghw/*.c", "libghw/*.h", "tests/*.rs", "assets/*.ghw"]
 categories = ["external-ffi-bindings" ]
 build = "build.rs"
 
